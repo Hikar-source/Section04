@@ -1,0 +1,127 @@
+/* CSS GENERAL */
+/* :root {
+} */
+body {
+    font-family: 'open Sans', arial, sans-serif;
+    color: #494d55;
+    font-size: 14px; 
+}
+
+section {
+    background-color: rgb(245, 245, 245);
+}
+
+/* SECTION PRICE */
+.price {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.price .title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.price .text {
+    max-width: 760px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-size: 16px;
+    color: #a2a6af;
+
+}
+
+/* SECTION COL_ITEM */
+
+.col_price {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.col_price .item {
+    margin-bottom: 30px;
+}
+
+.col_price .item .item_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background: #75c181;
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+.col_price .item .item_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background: #58bbee;
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+.col_price .item .item_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background: #F8A13F;
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+/* SECTION COL_ITEM TITLE */
+
+.item_title {
+    min-width: 60px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.item .item_title .item-descritpion {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 3;
+}
+
+.item .item_price {
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+.item .item_price .currency {
+    vertical-align: super;
+    font-size: 26px;
+    opacity: 0.6;
+}
+
+.item .item_price .number {
+    font-weight: 500;
+}
+
+.item a {
+    color: rgba(0, 0, 0, 0.4);   
+}
+
+/* SECTION COL_ITEM BOUTON */
+
+.item .btn-item {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    line-height: 1.5;
+}
